@@ -1,0 +1,199 @@
+.nav li h1.navUsername {
+  font-size: 15px;
+}
+
+.btn-xxs {
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+
+.btn-warning {
+  background: rgb(47, 183, 233) !important;
+  border-color: rgb(47, 183, 233) !important;
+}
+
+.btn-warning:hover {
+  background: rgb(47, 183, 233) !important;
+  border-color: rgb(47, 183, 233) !important;
+}
+
+.dashboard-title {
+  padding-bottom: 5px !important;
+}
+
+.blink {
+  animation: blinker 1s cubic-bezier(.5, 0, 1, 1) infinite alternate;
+}
+@keyframes blinker {
+  from { opacity: 1; }
+  to { opacity: 0.2; }
+}
+.profileModal .modal-content {
+  background: #24344d;
+}
+.profileModal .modal-header {
+  border-bottom: 0px;
+}
+.profileModal .modal-body {
+  text-align: center;
+}
+.profileModal .modal-header .profileInfo {
+  padding-top: 30px;
+}
+.profileModal .modal-header .modal-title {
+  text-align: center;
+  color: #fff;
+}
+.profileModal .profileImg {
+  height: 70px;
+  width: 70px;
+  border-radius: 50px;
+  display: block;
+  background: #fff;
+  text-align: center;
+  margin: auto;
+}
+
+.profileModal .profileButton {
+  text-align: center;
+  margin: auto;
+}
+
+.transactionDash {
+  background: #1d293c;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.transactionDash .price {
+  text-align: center;
+  padding-top: 5px;
+}
+
+.transactionDash .user img {
+  height: 30px;
+  border-radius: 20px;
+}
+
+.transactionDash .user {
+  text-align: center;
+}
+
+.transactionDash .userCol {
+  height: 50px !important;
+}
+
+.transactionDash .arrow {
+  margin-left: -5px;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 25px;
+}
+
+.transactionMain {
+  background: #1d293c;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.transactionMain .price {
+  text-align: center;
+  padding-top: 5px;
+}
+
+.transactionMain .user img {
+  height: 30px;
+  border-radius: 20px;
+}
+
+.transactionMain .user {
+  text-align: center;
+}
+
+.transactionMain .userCol {
+  height: 50px !important;
+  text-align: center;
+}
+
+.transactionMain .arrow {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 25px;
+}
+
+.updateArticle {
+  background: #1d293c;
+  padding: 20px;
+  margin: 10px 0;
+}
+
+.updateArticle img {
+  height: 120px;
+  max-width: 250px;
+}
+
+.updateArticle .date {
+  float: right;
+}
+
+.updateArticle h1 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.updateArticle p {
+  font-size: 13px;
+}
+
+.profileLink {
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.viewUpdate .header {
+  text-align: center;
+}
+
+.viewUpdate p {
+  padding-top: 20px;
+}
+
+.viewUpdate .header img {
+  height: 200px;
+}
+
+.viewUpdate .header h2 {
+  font-size: 18px;
+}
+
+.note-editor {
+  border: none !important;
+}
+
+.note-editable {
+  background: transparent !important;
+  color: #fff !important;
+}
+
+.titleEditor {
+  border: none;
+  font-size: 30px;
+  text-align: center;
+}
+
+.descEditor {
+  border: none;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+b, strong {
+  font-weight: 700 !important;
+}
+
+.close {
+  color: #fff !important;
+  position: absolute !important;
+  right: 20px !important;
+  top: 20px !important;
+}
